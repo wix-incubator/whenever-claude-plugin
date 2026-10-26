@@ -1,0 +1,15 @@
+{
+  "name": "whenever",
+  "description": "The Whenever plugin for Claude.",
+  "owner": {
+    "name": "Wix",
+    "url": "https://www.whenever.dev"
+  },
+  "plugins": [
+    {
+      "name": "whenever",
+      "source": "./",
+      "description": "Build and manage Whenever workflow automations from Claude."
+    }
+  ]
+}
