@@ -22,3 +22,7 @@ in Whenever in your browser; Claude never sees their values.
 ## Support
 
 [Contact Wix Customer Care](https://support.wix.com/en/article/contacting-wix-customer-care-for-support).
+
+## Privacy
+
+[Whenever privacy policy](https://www.whenever.dev/privacy).
