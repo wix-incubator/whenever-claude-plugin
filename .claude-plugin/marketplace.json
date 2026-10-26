@@ -2,7 +2,7 @@
   "name": "whenever",
   "description": "The Whenever plugin for Claude.",
   "owner": {
-    "name": "Wix",
+    "name": "Wix.com Ltd.",
     "url": "https://www.whenever.dev"
   },
   "plugins": [

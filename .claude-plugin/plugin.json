@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "description": "Build and manage Whenever workflow automations from Claude.",
   "author": {
-    "name": "Wix",
+    "name": "Wix.com Ltd.",
     "url": "https://www.whenever.dev"
   },
   "homepage": "https://www.whenever.dev",
   "repository": "https://github.com/wix-incubator/whenever-claude-plugin",
   "license": "MIT",
-  "privacyPolicyUrl": "https://www.whenever.dev/privacy",
-  "icon": "./assets/icon.png",
   "keywords": [
     "automation",
     "workflows",
