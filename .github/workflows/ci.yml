@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  CLAUDE_CODE_VERSION: 2.1.296
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Download the Claude Code binary
+        run: |
+          cd "$RUNNER_TEMP"
+          npm pack --ignore-scripts "@anthropic-ai/claude-code-linux-x64@$CLAUDE_CODE_VERSION"
+          tar xzf "anthropic-ai-claude-code-linux-x64-$CLAUDE_CODE_VERSION.tgz"
+          chmod +x package/claude
+      - name: Validate the plugin
+        run: '"$RUNNER_TEMP/package/claude" plugin validate .'
