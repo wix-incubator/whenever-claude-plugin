@@ -11,7 +11,7 @@
   "documentationUrl": "https://www.whenever.dev/mcp",
   "privacyPolicyUrl": "https://www.whenever.dev/privacy",
   "termsOfServiceUrl": "https://www.whenever.dev/terms-of-use",
-  "supportUrl": "https://support.wix.com/en/article/contacting-wix-customer-care-for-support",
+  "supportUrl": "https://github.com/wix-incubator/whenever-claude-plugin#support",
   "license": "MIT",
   "keywords": [
     "automation",
