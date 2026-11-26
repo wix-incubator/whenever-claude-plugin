@@ -1,6 +1,6 @@
 {
   "name": "whenever",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build and manage Whenever workflow automations from Claude.",
   "author": {
     "name": "Wix.com Ltd.",
